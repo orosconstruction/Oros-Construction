@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Oros Construction</title>
+      
+    <meta name="description" content= "">
+      
+    <meta name = "keywords" content = "">
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+      
+    
+
+    <style>
+        
+         body, h1{
+            margin: 0;
+            padding: 0;
+            border: 0;
+            outline: 0;
+        }
+        
+        .header{
+            
+        }
+        
+        .header h1{
+            float:left;
+            position:relative;
+            top:4px;
+            padding-left:15px;
+        }
+        
+        .content{
+            float:right;
+            position:relative;
+            top:4px;
+        }
+        
+        .header span{
+            float: left;
+            font-size: 2em;
+            padding:5px 10px 0 15px;
+        }
+        
+        .header h5{
+            float:left;
+            padding:0 15px 0 0;
+            position:relative;
+            top:-5px;
+        }
+        
+        .header a{
+            color:black;
+        }
+        
+        .clear{
+            clear:both;
+        }
+        
+        #background{
+            
+        }
+        
+        .heading{
+            width:100%;
+            height:70px;
+            background-color:#696766;
+            opacity:.6;
+        }
+        
+        .tabs{
+            position:relative;
+            bottom:70px;
+            color:white;
+        }
+        
+        .tab1, .tab2, .tab3{
+            float:left;
+        }
+        
+        .topbar1{
+            width:100%;
+            height:5px;
+            background-color:#696766;
+            opacity:.0;
+        }
+        
+        .topbar2{
+            width:100%;
+            height:5px;
+            background-color:#696766;
+            opacity:.0;
+        }
+        
+        .topbar3{
+            width:100%;
+            height:5px;
+            background-color:#696766;
+            opacity:.0;
+        }
+        
+        .tabs h4{
+            padding: 12px;
+            font-weight:bolder;
+        }
+        
+        .tabs a{
+            color:white;
+        }
+        
+        .tabs a:hover{
+            color:white;
+        }
+        
+        #pic{
+            
+        }
+        
+        .center{
+            text-align:center;
+        }
+        
+        #moveUp{
+            position:relative;
+            top:-50px;
+        }
+
+        #success{
+            color:white;
+            background-color:darkgray;
+            width:100%;
+            padding:10px;
+            margin:auto;
+            text-align:center;
+            position:relative;
+            top:-50px;
+        }
+        
+        #success h3{
+            position: relative;
+            top:-4px;
+        }
+        
+        #contact{
+            padding-left:50px;
+        }
+        
+        #locationHours{
+            padding-left:50px;
+        }
+        
+        #mottoLine{
+            width:100%;
+            height:1px;
+            background-color: black;
+        }
+        
+        #motto h3{
+            width:90%;
+            padding: 30px 0;
+            margin:auto;
+        }
+        
+        @media screen
+              and (max-width:904px){
+                  
+                  .content{
+                      display:none;
+                  }
+                  
+                  .header h1{
+                      padding-bottom:11px;
+                  }
+                  
+          }
+        
+        @media screen
+            and (max-width:327px){
+        
+                #back{
+                    width:327px;
+                }
+        
+        }
+    
+    </style>
+    
+</head>
+    
+<body>
+    
+    <div id = "back">
+    
+        <div class = "header">
+        
+            <a href = "index.html"><h1>Oros Construction</h1></a>
+            
+            <div class = "content">
+            
+                <span class = "glyphicon glyphicon-time" aria-hidden = "true"></span>
+                <h5>Monday - Saturday 8:00 AM - 6:00 PM<br/>Sunday - Closed</h5>
+                <a href = "tel:972-467-4491"><span class = "glyphicon glyphicon-earphone" aria-hidden = "true"></span></a>
+                <h5><a href = "tel:972-467-4491">(972) 467 - 4491</a><br/>oroscontruction17@gmail.com</h5>
+                
+            
+            </div>
+            
+        </div>
+        
+        <div class = "clear"></div>
+        
+        <div id = "background">
+        
+            <header class = "heading"></header>
+
+            <div class = "tabs">
+                
+                <a href = "index.html"><div class = "tab1">
+                    
+                    <div class = "topbar1"></div>
+                    <h4>Home</h4>
+                    
+                </div></a>
+                    
+                <a href = "gallery.html"><div class = "tab2">
+                    
+                    <div class = "topbar2"></div>
+                    <h4>Gallery</h4>
+                    
+                    </div></a>
+                    
+                    
+                <a href = "contact.html"><div class = "tab3">
+                    
+                    <div class = "topbar3"></div>
+                    <h4>Contact</h4>
+                    
+                </div></a>
+               
+            </div>
+                
+            
+            <div id = "pic"></div>
+            
+        </div>
+        
+        <div class = "clear"></div>
+        
+        <div id = "success">
+            
+            <h3>Your form has been successfully submitted. Thank You!</h3>
+        
+        </div>
+        
+        <div class = "row" id = "moveUp">
+            
+            <h3 class = "center">Contact Us</h3>
+                    
+            <div class = "col-md-6" id = "contact">
+                    
+                <div>
+                
+                    <form action="https://formspree.io/orosconstruction17@gmail.com" method="POST" target= "_self">
+                                 
+                        <h5>Full Name</h5>
+                        <input type="text" name="name">
+                        <br/>
+                        
+                        <h5>Email</h5>
+                        <input type="email" name="_replyto">
+                        <br/>
+                            
+                        <input type="hidden" name="_subject" value="Oros Construction" />
+                        
+                        <h5>Questions or Comments</h5>
+                        <textarea rows="3" cols="22" name="comments" placeholder="Please Include Phone Number"></textarea>
+                        <br />
+                        
+                        <input type="submit" value="Send">
+                        
+                        <input type="hidden" name="_next" value="contactSuccess.html" target = "_self" />
+                        
+                    </form>
+                
+                </div>
+                    
+            </div>
+                    
+            <div class = "col-md-6" id = "locationHours" >
+                    
+                <h3 class = "center"></h3>
+                        
+                <h5>Guadalupe Oros<br/><a class = "black" href = "tel:972-467-4491">(972) 467 - 4491</a><br/><a class ="top" href = "tel:972-467-4491"><span class="glyphicon glyphicon-earphone" aria-hidden="true"> Call Now!</span></a></h5>
+                        
+                <h5>Sara Oros<br/><a class = "black" href = "tel:469-520-2737">(469) 520 - 2737</a><br/><a class = "top" href = "tel:469-520-2737"><span class="glyphicon glyphicon-earphone" aria-hidden="true"> Call Now!</span></a></h5>
+                        
+                <h3 class = "center">Hours</h3>
+                        
+                <h5>Monday - Friday<br/>8 AM - 6 PM</h5>
+                        
+                <h5>Saturday<br/>8 AM - 5 PM</h5>
+                        
+                <h5>Sunday<br/>Closed</h5>
+                        
+                    
+            </div>
+                
+        </div>
+        
+        <div id = "motto">
+            
+            <div id = "mottoLine"></div>
+            
+            <h3 class = "center">Putting a Plan to Action, to Assure your Satisfaction!</h3>
+    
+        </div>
+        
+        
+    
+    </div>
+
+    <script>
+    
+    
+    
+    </script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <script>
+    
+        $(".tab1").mouseover(function(){
+            
+            $(".topbar1").css("background-color","#F7C51E");
+            
+            $(".topbar1").css("opacity","1");
+            
+        });
+        
+        $(".tab2").mouseover(function(){
+            
+            $(".topbar2").css("background-color","#F7C51E");
+            
+            $(".topbar2").css("opacity","1");
+            
+        });
+        
+        $(".tab3").mouseover(function(){
+            
+            $(".topbar3").css("background-color","#F7C51E");
+            
+            $(".topbar3").css("opacity","1");
+            
+        });
+        
+        $(".tab1").mouseout(function(){
+            
+            $(".topbar1").css("background-color","#696766");
+            
+            $(".topbar1").css("opacity",".0");
+            
+        });
+        
+        $(".tab2").mouseout(function(){
+            
+            $(".topbar2").css("background-color","#696766");
+            
+            $(".topbar2").css("opacity",".0");
+            
+        });
+        
+        $(".tab3").mouseout(function(){
+            
+            $(".topbar3").css("background-color","#696766");
+            
+            $(".topbar3").css("opacity",".0");
+            
+        });
+    
+    </script>
+    
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
